@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>背景</title>
+    <script>
+        setInterval("randomColor(document.body)", 2000);
+        function randomColor(node) {
+            let hexa1 = parseInt(Math.floor(256 * Math.random()), 10).toString(16);
+            let hexa2 = parseInt(Math.floor(256 * Math.random()), 10).toString(16);
+            let hexa3 = parseInt(Math.floor(256 * Math.random()), 10).toString(16);
+            node.style.backgroundColor = "#" + hexa1 + hexa2 + hexa3;
+            // node.style.backgroundColor = "rgb(" + colorR + "," + colorG + ", " + colorB + ")";
+        }
+        
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

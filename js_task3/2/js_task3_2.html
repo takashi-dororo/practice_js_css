@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>計算jQ</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+    <div>
+        <p>足し算</p>
+        <form id="form1"> 
+            <input type="text" id="add1" value=""><span> +</span>
+            <input type="text" id="add2" value=""><span> =</span>
+            <input type="text" id="result_add">
+            <div class="btn-wrapper">
+                <button id="plus">計算</button>
+            </div>    
+        </form>
+    </div>
+    <div>
+        <p>掛け算</p>
+        <form id="form2">
+            <input type="text" id="times1"><span> x</span>
+            <input type="text" id="times2"><span> =</span>
+            <input type="text" id="result_times">
+            <div class="btn-wrapper">
+                <button id="times">計算</button>
+            </div>
+        </form>  
+    </div>
+    <div>
+        <p>進数変換</p>
+        <form id="form3">
+            <p>10新数：<input type="text" id="demical"></p>
+            <p>2進数：<input type="text" id="binary"></p>
+            <p>16進数：<input type="text" id="hexademical"></p>
+            <div class="btn-wrapper">
+                <button id="sinsu">計算</button>
+            </div>
+        </form>
+    </div>
+
+    <script type="text/javascript" src="js_task3_2.js"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>本日の日付　引数なし</title>
+</head>
+<body>
+<script>
+    var today = new Date(); //日付を取得
+    var year = today.getFullYear();
+    var month = today.getMonth(); 
+    var date = today.getDate();
+    var day = today.getDay();
+
+    var yobi = new Array("日", "月", "火", "水", "木", "金", "土"); 
+
+    alert("西暦：" + year + "年" + (month + 1) + "月" + date + "日" + yobi[day] + "曜日");
+
+</script>
+</body>
+</html>

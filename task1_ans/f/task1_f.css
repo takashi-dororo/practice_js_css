@@ -1,0 +1,46 @@
+#wrapper {
+    width: 300px;
+    height: 600px;
+    margin: 80px auto;
+    /* background-color: red; 確認用*/
+}
+
+#top {
+    height: 100px;
+    background-color: rgb(0, 0, 255);
+}
+
+#center {
+    width: 300px;
+    height: 400px;
+}
+
+.center-left {
+    width: 100px;
+    float: left;
+    background-color: rgb(250, 0, 0);
+    height: 400px;
+
+}
+
+.center-center {
+    width: 100px;
+    float: left;
+    background-color: rgb(255, 166, 0);
+    height: 400px;
+
+}
+
+.center-right {
+    width: 100px;
+    float: left;
+    background-color: rgb(250, 0, 187);
+    height: 400px;
+}
+
+#bottom {
+    clear: both;
+    width: 300px;
+    height: 100px;
+    background-color: rgb(0, 255, 0);
+}

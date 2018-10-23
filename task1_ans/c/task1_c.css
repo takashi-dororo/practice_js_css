@@ -1,0 +1,16 @@
+#wrapper {
+    width: 300px;
+    height: 200px;
+    margin: 50px auto;
+    background-color: rgb(0, 0, 255);
+    position: relative;
+}
+
+#mini-box {
+    top: 50px;
+    left: 50px;
+    background-color: rgb(255, 0, 0);
+    position: relative;
+    width: 50px;
+    height: 50px;
+}

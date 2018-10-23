@@ -1,0 +1,20 @@
+#wrapper {
+    width: 600px;
+    height: 600px;
+    margin: 50px auto;
+}
+
+#top {
+    height: 200px;
+    background-color: rgb(0, 0, 255);
+}
+
+#center {
+    height: 200px;
+    background-color: rgb(0, 255, 0);
+}
+
+#bottom {
+    height: 200px;
+    background-color: rgb(255, 0, 0);
+}

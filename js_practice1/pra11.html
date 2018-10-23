@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>文字を２秒ごとに一文字ずつ表示</title>
+    <script>
+        setTimeout(function() {
+            show()}, 2000);
+          
+        function show() {
+            let text = "侍エンジニア塾";
+						let array = text.split("");
+            for(var i = 0; i < array.length; i++) {
+                console.log(array[i]);
+                // alert(list[i]); 確認用
+            }
+            
+        }
+				
+    </script>
+</head>
+<body>
+</body>
+</html>

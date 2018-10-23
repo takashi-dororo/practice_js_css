@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>割り勘jq</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+    <h1>みんなで割り勘</h1>
+    <h2>本日のお会計</h2>
+    <input type="text" id="price">
+    <p>本日の合計のお会計は<span id="price_display"></span>円です</p>
+    
+    <h2>合計人数</h2>
+    <input type="text" id="total_num"><span>人です</span>
+    <p>割り勘すると一人当たり<span id="split_price"></span>円です</p>
+    <p>過半数の方はお酒を飲んでいるが、少数の中にお酒を飲んでいない人はいますか？</p>
+    <button id="btn">いる</button>
+    <div id="consider-area">
+        <h3>お酒を飲んでいない人の人数</h3>
+        <p><input type="number" id="nodrunk_number">人です</p>
+        <p>お酒を飲んでいない人の一人当たりの金額は<span id="no-drunk-price"></span>円です</p>
+        <p>お酒を飲んだ人の一人当たりの金額は<span id="drunk-price"></span>円です</p>
+    </div>
+
+    <script type="text/javascript" src="js_task6_jq.js"></script>
+</body>
+</html>
